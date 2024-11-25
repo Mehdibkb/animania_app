@@ -1,4 +1,4 @@
-// File: C:\Users\mehdi\Animania\animania\app\layout.tsx
+// File: C:\Users\Moayé Kelly\animania_app\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
