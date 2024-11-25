@@ -40,7 +40,11 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< HEAD
 var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./node_modules/next/dist/pages/_app.js")));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next@15.0.3_react-dom@19.0.0-rc-66855b96-20241106_react@19.0.0-rc-66855b96-20241106__react@19.0.0-rc-66855b96-20241106","vendor-chunks/@swc+helpers@0.5.13"], () => (__webpack_exec__("./node_modules/.pnpm/next@15.0.3_react-dom@19.0.0-rc-66855b96-20241106_react@19.0.0-rc-66855b96-20241106__react@19.0.0-rc-66855b96-20241106/node_modules/next/dist/pages/_app.js")));
+>>>>>>> 8ddd8aab5d7e124c1fb534f33b1b541b40c8d47d
 module.exports = __webpack_exports__;
 
 })();

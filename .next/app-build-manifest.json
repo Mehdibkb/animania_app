@@ -6,11 +6,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/a-propos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/a-propos/page.js"
+    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+<<<<<<< HEAD
     "/formulaire/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,6 +27,8 @@
       "static/chunks/main-app.js",
       "static/chunks/app/afficher_donnees/page.js"
     ],
+=======
+>>>>>>> 8ddd8aab5d7e124c1fb534f33b1b541b40c8d47d
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
