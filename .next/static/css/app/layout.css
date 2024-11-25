@@ -555,6 +555,9 @@ video {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
