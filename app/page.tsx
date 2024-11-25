@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <div>
       <ul>
-        {allUsers.map((user) => (
+        {allUsers.map((user: { name: string }) => (
           <li key={user.name}>{user.name}</li>
         ))}
       </ul>
