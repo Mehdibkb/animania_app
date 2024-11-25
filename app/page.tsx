@@ -14,4 +14,3 @@ export default async function Home() {
     </div>
   );
 }
-console.log("Hello World");
