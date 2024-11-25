@@ -1,4 +1,4 @@
-import { prisma } from "app/db/prisma";
+import { prisma } from "@/app/db/prisma";
 
 export default async function Home() {
  await prisma.user.create({
