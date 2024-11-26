@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// File: C:\Users\mehdi\OneDrive\Desktop\animania_app\app\layout.tsx
+=======
 // File: C:\Users\Moayé Kelly\animania_app\app\layout.tsx
+>>>>>>> 8ddd8aab5d7e124c1fb534f33b1b541b40c8d47d
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
