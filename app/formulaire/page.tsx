@@ -19,7 +19,7 @@ export default function Home() {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/insertion/insert_data.ts", {
+      const response = await fetch("/api/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

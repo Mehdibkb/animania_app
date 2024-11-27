@@ -10,7 +10,7 @@ export default function AfficherDonnees() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("/api/recuperer_donnees/get_data.ts");
+        const response = await fetch("/api/users");
         const result = await response.json();
 
         if (response.ok) {
