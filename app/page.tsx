@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import { prisma } from "./db/prisma";
 
 export default async function Home() {
@@ -6,11 +7,14 @@ export default async function Home() {
   });
   return (
     <div>
-      <ul>
-        {allUsers.map((user: { name: string }) => (
-          <li key={user.name}>{user.name}</li>
-        ))}
-      </ul>
+      <div>
+        <ul>
+          {allUsers.map((user: { name: string }) => (
+            <li key={user.name}>{user.name}</li>
+          ))}
+        </ul>
+      </div>
+      <Footer />
     </div>
   );
 }
